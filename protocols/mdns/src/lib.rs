@@ -43,7 +43,7 @@ mod behaviour;
 #[cfg(feature = "async-io")]
 pub use crate::behaviour::async_io;
 #[cfg(feature = "tokio")]
-pub use crate::behaviour::tokio;
+pub use crate::behaviour::tokio::Tokio as TokioProvider;
 pub use crate::behaviour::{Behaviour, Event};
 pub use crate::behaviour::Provider;
 
