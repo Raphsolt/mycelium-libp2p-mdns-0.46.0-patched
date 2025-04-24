@@ -18,7 +18,7 @@ libp2p-core = { workspace = true }
 libp2p-swarm = { workspace = true }
 libp2p-identity = { workspace = true }
 rand = "0.8"
-tracing = { workspace = true }
+tracing = "0.1.40"
 
 [dev-dependencies]
 libp2p-swarm = { workspace = true, features = ["macros"] }
