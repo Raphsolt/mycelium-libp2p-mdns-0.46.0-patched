@@ -20,7 +20,7 @@ parking_lot = "0.12.3"
 pin-project-lite = "0.2.14"
 rw-stream-sink = { workspace = true }
 soketto = "0.8.0"
-tracing = { workspace = true }
+tracing = "0.1.40"
 thiserror = { workspace = true }
 url = "2.5"
 webpki-roots = "0.26"
