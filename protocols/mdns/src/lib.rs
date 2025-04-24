@@ -45,6 +45,7 @@ pub use crate::behaviour::async_io;
 #[cfg(feature = "tokio")]
 pub use crate::behaviour::tokio;
 pub use crate::behaviour::{Behaviour, Event};
+pub use crate::behaviour::Provider;
 
 /// The DNS service name for all libp2p peers used to query for addresses.
 const SERVICE_NAME: &[u8] = b"_p2p._udp.local";
