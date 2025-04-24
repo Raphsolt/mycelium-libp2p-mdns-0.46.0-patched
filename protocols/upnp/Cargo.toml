@@ -17,7 +17,7 @@ igd-next = "0.16.1"
 libp2p-core = { workspace = true }
 libp2p-swarm = { workspace = true }
 tokio = { workspace = true, default-features = false, features = ["rt"], optional = true }
-tracing = { workspace = true }
+tracing = "0.1.40"
 
 [features]
 tokio = ["igd-next/aio_tokio", "dep:tokio"]
