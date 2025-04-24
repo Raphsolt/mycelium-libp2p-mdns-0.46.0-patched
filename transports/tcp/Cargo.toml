@@ -19,7 +19,7 @@ libc = "0.2.155"
 libp2p-core = { workspace = true }
 socket2 = { version = "0.5.7", features = ["all"] }
 tokio = { workspace = true, default-features = false, features = ["net"], optional = true }
-tracing = { workspace = true }
+tracing = "0.1.40"
 
 [features]
 tokio = ["dep:tokio", "if-watch/tokio"]
