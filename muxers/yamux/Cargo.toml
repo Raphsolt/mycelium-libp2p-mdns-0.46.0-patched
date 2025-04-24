@@ -17,7 +17,7 @@ libp2p-core = { workspace = true }
 thiserror = { workspace = true }
 yamux012 = { version = "0.12.1", package = "yamux" }
 yamux013 = { version = "0.13.3", package = "yamux" }
-tracing = { workspace = true }
+tracing = "0.1.40"
 
 [dev-dependencies]
 tokio = { workspace = true, features = ["macros", "rt-multi-thread"] }
