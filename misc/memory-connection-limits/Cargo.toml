@@ -15,7 +15,7 @@ libp2p-core = { workspace = true }
 libp2p-swarm = { workspace = true }
 libp2p-identity = { workspace = true, features = ["peerid"] }
 sysinfo = "0.33"
-tracing = { workspace = true }
+tracing = "0.1.40"
 
 [dev-dependencies]
 libp2p-identify = { workspace = true }
