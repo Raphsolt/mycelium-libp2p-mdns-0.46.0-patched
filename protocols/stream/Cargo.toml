@@ -14,7 +14,7 @@ futures = { workspace = true }
 libp2p-core = { workspace = true }
 libp2p-identity = { workspace = true, features = ["peerid"] }
 libp2p-swarm = { workspace = true }
-tracing = { workspace = true }
+tracing = "0.1.40"
 rand = "0.8"
 
 [dev-dependencies]
