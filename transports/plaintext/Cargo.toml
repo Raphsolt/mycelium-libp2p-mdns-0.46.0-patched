@@ -17,7 +17,7 @@ futures = { workspace = true }
 libp2p-core = { workspace = true }
 libp2p-identity = { workspace = true }
 quick-protobuf = "0.8"
-tracing = { workspace = true }
+tracing = "0.1.40"
 quick-protobuf-codec = { workspace = true }
 
 [dev-dependencies]
