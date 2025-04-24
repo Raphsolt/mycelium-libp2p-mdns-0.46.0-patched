@@ -15,7 +15,7 @@ async-std = { version = "1.6.2", optional = true }
 libp2p-core = { workspace = true }
 futures = { workspace = true }
 tokio = { workspace = true, default-features = false, features = ["net"], optional = true }
-tracing = { workspace = true }
+tracing = "0.1.40"
 
 [dev-dependencies]
 tempfile = "3.10"
